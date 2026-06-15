@@ -1,0 +1,55 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Linker/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/CMakeFiles/4.3.2/CMakeRCCompiler.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/CMakeFiles/4.3.2/CMakeSystem.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glew/CopyImportedTargetProperties.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glew/glew-config.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glew/glew-targets-debug.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glew/glew-targets-release.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glew/glew-targets.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glew/vcpkg-cmake-wrapper.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glfw3/glfw3Config.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glfw3/glfw3ConfigVersion.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glfw3/glfw3Targets-debug.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glfw3/glfw3Targets-release.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/vcpkg_installed/x64-windows-static/share/glfw3/glfw3Targets.cmake
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/user_gui/CMakeLists.txt
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/user_gui/vcpkg.json
+D:/Program Files/Microsoft Visual Studio/18/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake

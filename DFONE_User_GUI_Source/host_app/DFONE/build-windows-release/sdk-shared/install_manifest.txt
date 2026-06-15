@@ -1,0 +1,5 @@
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/dist/windows/DFONE-Windows-SDK-1.0.0-x64/sdk/shared/lib/dfone_host.lib
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/dist/windows/DFONE-Windows-SDK-1.0.0-x64/sdk/shared/bin/dfone_host.dll
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/dist/windows/DFONE-Windows-SDK-1.0.0-x64/sdk/shared/include/dfone/export.hpp
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/dist/windows/DFONE-Windows-SDK-1.0.0-x64/sdk/shared/include/dfone/maintenance.hpp
+D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/dist/windows/DFONE-Windows-SDK-1.0.0-x64/sdk/shared/include/dfone/session.hpp

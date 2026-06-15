@@ -1,0 +1,10 @@
+^D:\DFONE\DFONE_USER_GUI_SOURCE\HOST_APP\DFONE\USER_GUI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/user_gui -BD:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static --check-stamp-file D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

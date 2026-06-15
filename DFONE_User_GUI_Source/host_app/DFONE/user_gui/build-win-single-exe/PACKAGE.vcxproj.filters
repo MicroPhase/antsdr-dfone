@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\DFONE\DFONE_User_GUI_Source\host_app\DFONE\user_gui\build-win-single-exe\CMakeFiles\70d56b8d4d5c1f56ab0856444132d746\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D01C5A42-C3D5-3CF0-8E6E-56C0831ABA8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

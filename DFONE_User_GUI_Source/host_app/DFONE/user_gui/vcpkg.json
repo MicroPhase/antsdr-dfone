@@ -1,0 +1,9 @@
+{
+  "name": "dfone-user-apps",
+  "version": "1.0.0",
+  "dependencies": [
+    "glfw3",
+    "glew"
+  ],
+  "builtin-baseline": "44819aa2a6c10e56065e2b0330e7d6c89d1d2574"
+}

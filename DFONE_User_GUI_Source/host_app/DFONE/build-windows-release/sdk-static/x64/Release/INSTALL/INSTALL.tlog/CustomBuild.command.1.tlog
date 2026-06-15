@@ -1,0 +1,10 @@
+^D:\DFONE\DFONE_USER_GUI_SOURCE\HOST_APP\DFONE\BUILD-WINDOWS-RELEASE\SDK-STATIC\CMAKEFILES\62BA22D38E47A95FAFC22A533D2A1E6D\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

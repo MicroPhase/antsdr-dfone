@@ -1,0 +1,70 @@
+Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
+Detecting compiler hash for triplet x64-windows...
+-- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7890".
+Compiler found: D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe
+Detecting compiler hash for triplet x64-windows-static...
+Compiler found: D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * egl-registry:x64-windows-static@2025-05-27 -- git+https://github.com/microsoft/vcpkg@980ed62fded868a1cb66460b32704aca030af013
+    glew:x64-windows-static@2.3.1 -- git+https://github.com/microsoft/vcpkg@edfc7053968c85e646897acc2f6f1c94d1690499
+    glfw3:x64-windows-static@3.4#1 -- git+https://github.com/microsoft/vcpkg@d4bbd4f27c2ca619f57778985120cddcedadb1cc
+  * opengl:x64-windows-static@2022-12-04#3 -- git+https://github.com/microsoft/vcpkg@c3ae71738f88449ebcd781cef60d9a253fa091d4
+  * opengl-registry:x64-windows-static@2026-01-26 -- git+https://github.com/microsoft/vcpkg@0cd17c3b57221250d5ba174580f0a2993853ce34
+  * vcpkg-cmake:x64-windows@2024-04-23 -- git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+Additional packages (*) will be modified to complete this operation.
+Restored 7 package(s) from C:\Users\15306\AppData\Local\vcpkg\archives in 195 ms. Use --debug to see more details.
+Installing 1/7 vcpkg-cmake-config:x64-windows@2024-05-23...
+vcpkg-cmake-config:x64-windows@2024-05-23 package ABI: 29a811042eaf66410c10acb7c015e420fbc3481a2f345de80600d3cac5ef6bf0
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 1.55 ms
+Installing 2/7 vcpkg-cmake:x64-windows@2024-04-23...
+vcpkg-cmake:x64-windows@2024-04-23 package ABI: 2935b8986b05b7882add782ff144d8b1b7ab40498e299649ed6c682dbe7680d7
+Elapsed time to handle vcpkg-cmake:x64-windows: 3.36 ms
+Installing 3/7 egl-registry:x64-windows-static@2025-05-27...
+egl-registry:x64-windows-static@2025-05-27 package ABI: d24ec0ef486886407d81e15e6c83cfc9e1e1e8c76d0b213baf7a355015145b4b
+Elapsed time to handle egl-registry:x64-windows-static: 3.08 ms
+Installing 4/7 opengl-registry:x64-windows-static@2026-01-26...
+opengl-registry:x64-windows-static@2026-01-26 package ABI: 847804a183f087cc52e8e03d3d0071d81f634dccb78ecdda9c91c0b9d7f7df7f
+Elapsed time to handle opengl-registry:x64-windows-static: 6.52 ms
+Installing 5/7 opengl:x64-windows-static@2022-12-04#3...
+opengl:x64-windows-static@2022-12-04#3 package ABI: a65e9d712ebc719e0dcdb1757111afc93962d79159874b121fb57bf75e5dc593
+Elapsed time to handle opengl:x64-windows-static: 3.8 ms
+Installing 6/7 glew:x64-windows-static@2.3.1...
+glew:x64-windows-static@2.3.1 package ABI: cef31624e1a6dc2b4db9eedcc7f9ad4dcc8081347856ad2391b10dca2cc44424
+Elapsed time to handle glew:x64-windows-static: 4.36 ms
+Installing 7/7 glfw3:x64-windows-static@3.4#1...
+glfw3:x64-windows-static@3.4#1 package ABI: 1aeb8b394607777b17b073aa078a127eec1e2f22dd60d03cf87949462a247e75
+Elapsed time to handle glfw3:x64-windows-static: 4.7 ms
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Some packages did not declare an SPDX license. Check the `copyright` file for each package for more information about their licensing.
+Packages installed in this vcpkg installation declare the following licenses:
+Apache-2.0
+MIT
+Zlib
+glew provides CMake targets:
+
+  # Legacy CMake find module
+  find_package(GLEW REQUIRED)
+  target_link_libraries(main PRIVATE GLEW::GLEW)
+
+  # Modern CMake config package
+  find_package(GLEW CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE GLEW::GLEW)
+
+glew provides pkg-config modules:
+
+  # The OpenGL Extension Wrangler library
+  glew
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+
+glfw3 provides pkg-config modules:
+
+  # A multi-platform library for OpenGL, window and input
+  glfw3
+
+All requested installations completed successfully in: 29.7 ms

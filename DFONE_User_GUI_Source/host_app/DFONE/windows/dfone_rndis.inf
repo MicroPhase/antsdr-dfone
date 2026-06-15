@@ -1,0 +1,55 @@
+; DFONE USB RNDIS setup file for Windows 7 and later.
+; This INF binds the DFONE USB RNDIS interface to Microsoft's in-box RNDIS 6 driver.
+;
+; Current development USB IDs come from board/dfone/buildroot/rootfs-overlay/etc/init.d/S45usb-gadget:
+;   VID_1D6B PID_0104 MI_00
+;
+; For customer releases, replace VID/PID with the assigned DFONE USB VID/PID and sign this INF.
+
+[Version]
+Signature           = "$Windows NT$"
+Class               = Net
+ClassGUID           = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider            = %DFONE%
+DriverVer           = 05/26/2026,1.0.0.0
+PnpLockdown         = 1
+
+[Manufacturer]
+%DFONE%             = DFONEDevices,NTx86,NTamd64
+
+[DFONEDevices.NTx86]
+%DFONERndisDevice%  = RNDIS.NT.6.0, USB\VID_1D6B&PID_0104&MI_00
+%DFONERndisDevice%  = RNDIS.NT.6.0, USB\VID_1D6B&PID_0104
+
+[DFONEDevices.NTamd64]
+%DFONERndisDevice%  = RNDIS.NT.6.0, USB\VID_1D6B&PID_0104&MI_00
+%DFONERndisDevice%  = RNDIS.NT.6.0, USB\VID_1D6B&PID_0104
+
+[ControlFlags]
+ExcludeFromSelect   = *
+
+[RNDIS.NT.6.0]
+Characteristics     = 0x84
+BusType             = 15
+include             = netrndis.inf
+needs               = usbrndis6.ndi
+AddReg              = RNDIS_AddReg
+*IfType             = 6
+*MediaType          = 16
+*PhysicalMediaType  = 14
+
+[RNDIS.NT.6.0.Services]
+include             = netrndis.inf
+needs               = usbrndis6.ndi.Services
+
+[RNDIS_AddReg]
+HKR, NDI\params\NetworkAddress, ParamDesc, 0, %NetworkAddress%
+HKR, NDI\params\NetworkAddress, Type, 0, "edit"
+HKR, NDI\params\NetworkAddress, LimitText, 0, "12"
+HKR, NDI\params\NetworkAddress, UpperCase, 0, "1"
+HKR, NDI\params\NetworkAddress, Optional, 0, "1"
+
+[Strings]
+DFONE               = "DFONE"
+DFONERndisDevice    = "DFONE USB RNDIS Network Adapter"
+NetworkAddress      = "Network Address"

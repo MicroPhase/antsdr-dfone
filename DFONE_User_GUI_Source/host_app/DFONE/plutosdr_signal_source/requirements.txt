@@ -1,0 +1,2 @@
+numpy
+pyadi-iio

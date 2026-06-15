@@ -1,0 +1,10 @@
+^D:\DFONE\DFONE_USER_GUI_SOURCE\HOST_APP\DFONE\BUILD-WINDOWS-RELEASE\APPS-STATIC\CMAKEFILES\721009394A6A94DABBAA4B92CFA84B2C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/user_gui -BD:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/apps-static/dfone_user_apps.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
