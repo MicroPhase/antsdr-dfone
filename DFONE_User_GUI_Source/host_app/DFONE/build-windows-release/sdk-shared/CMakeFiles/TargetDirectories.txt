@@ -1,4 +1,0 @@
-D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/sdk-shared/CMakeFiles/dfone_host.dir
-D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/sdk-shared/CMakeFiles/INSTALL.dir
-D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/sdk-shared/CMakeFiles/ALL_BUILD.dir
-D:/DFONE/DFONE_User_GUI_Source/host_app/DFONE/build-windows-release/sdk-shared/CMakeFiles/ZERO_CHECK.dir
