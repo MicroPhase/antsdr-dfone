@@ -38,6 +38,12 @@ host_app/DFONE/user_gui/build/dfone_user_gui
 
 ## API Documentation
 
+- `../../README_CN.md`: Chinese out-of-box check for Ethernet
+  connection, Linux builds, Linux GUI/CLI usage, customer program integration,
+  and Windows GUI connection.
+- `../../README.md`: English out-of-box check for Ethernet
+  connection, Linux builds, Linux GUI/CLI usage, customer program integration,
+  and Windows GUI connection.
 - `API_USAGE.md`: quick start guide with C++ examples for capture, board ID,
   network configuration, and firmware update.
 - `PUBLIC_API_MANUAL.md`: complete public API reference.
